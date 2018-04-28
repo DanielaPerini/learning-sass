@@ -31,7 +31,47 @@ body {
   max-width: 300px;
 }
 
+.cta a, .cta a:visited, .cta a:hover, .cta a:focus {
+ color: #2D5461;
+ text-decoration: none;
+}
+
 footer {
+  background-color: #D2F0FA;
+  padding: 1rem;
+}
+
+
+
+a.fancy-link {
+  color: #3A612D;  
+}
+
+a.fancy-link:visited {
+  color: #D2F0FA;  
+}
+
+a.fancy-link:hover, a.fancy-link:focus {
+  text-shadow: gray 3px 3px 8px; 
+}
+
+section:first-of-type h2 {
+  text-align: center;
+  font-weight: 900;
+}
+
+p.big-cap:first-letter {
+  font-size: 200%;
+}
+
+input[type="submit"]{
+  background-color: #3A612D;
+  color: white;
+  border-radius: 50px;
+}
+
+
+.highlighted {
   background-color: #D2F0FA;
   padding: 1rem;
 }
